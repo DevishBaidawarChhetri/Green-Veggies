@@ -80,6 +80,7 @@
                             <li>&raquo; Increase/Decrease/Remove product from cart</li>
                             <li>&raquo; Write a review and rate product by stars</li>
                             <li>&raquo; Track your order status</li>
+                            <li>&raquo; View and Print bill after product delivery</li>
                             <li>&raquo; Favourite any product</li>
                             <li>&raquo; Subscribe to newsletter</li>
                             <li>&raquo; Contact Directly to admins</li>
