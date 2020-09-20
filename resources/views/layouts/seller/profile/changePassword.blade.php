@@ -88,7 +88,7 @@
                     <span class="float-right">Updated Time: {{$user->updated_at->toTimeString()}}</span>
                 </div>
 
-                <p class="form-control bg-success mt-3" style="border-radius: 0;">You joined Tech Wolves on: {{$user->created_at->toDateString()}}</p>
+                <p class="form-control bg-success mt-3" style="border-radius: 0;">You joined Green Veggies on: {{$user->created_at->toDateString()}}</p>
             </div>
         </section>
         @endif
