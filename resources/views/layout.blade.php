@@ -58,7 +58,9 @@
                             <a class="nav-link" href="{{ url('/register') }}"><i class="fas fa-user-plus"></i> Register</a>
                         </li>
                     @endif
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-question"></i> FAQs</a></li>
+                    <li class="nav-item  {{ Request::path() === 'faqs' ? 'activee': '' }}">
+                        <a class="nav-link" href="{{ url('/faqs') }}"><i class="fas fa-question"></i> FAQs</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -155,6 +157,19 @@
     // hide alert messages
     $(".alert").fadeTo(3000, 500).slideUp(500, function(){
         $(".alert").slideUp(500);
+    });
+</script>
+// Accordian
+<script type="text/javascript">
+    $(document).ready(function(e){
+        $('.item').click(function (e){
+            if($(this).next('.item-data').css('display') != 'block'){
+                $('.active').slideUp('fast').removeClass('active');
+                $(this).next('.item-data').addClass('active').slideDown('slow');
+            } else {
+                $('.active').slideUp('fast').removeClass('active');
+            }
+        });
     });
 </script>
 <!--Start of Tawk.to Script-->

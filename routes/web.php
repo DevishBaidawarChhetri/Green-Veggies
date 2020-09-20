@@ -29,6 +29,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/faqs', function (){
+   return view('faqs');
+});
+
 Route::get('/products', 'ProductController@index');
 
 Auth::routes();
