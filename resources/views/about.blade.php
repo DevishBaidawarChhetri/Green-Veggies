@@ -13,7 +13,11 @@
             <div class="about-w3ls-info text-center mx-auto">
                 <h3 class="tittle-wthree text-center">About Us</h3>
                 <p class="sub-tittle mt-3 mb-sm-5 mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis asperiores repellendus doloribus minima. Voluptatum, nisi autem, magnam vitae, quo sit tenetur maxime quos accusamus voluptates doloremque cum odio illo. Sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae facere iusto facilis qui soluta. Eaque, commodi nihil at rem dolorum recusandae cumque culpa natus numquam fugiat odit est voluptatem itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit expedita quae temporibus, amet fuga odit esse. Ea, aperiam vero doloribus natus obcaecati, consequuntur, saepe quibusdam numquam ratione voluptatibus inventore quis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil repellsat, reprehenderit consfectetur qui, pariatur nemo excepturi voluptatum voluptas itaque culpa quis dolore hic voluptate expedita. Nihil voluptatum dolorem odio hic.
+                    Green Veggies is the local company in Lalitpur that delivers fresh fruits and vegetables from tens and hundreds of hard working farmer. As a pioneer groceries delivery service provider, we are making life easier through online ordering.
+                    <br>
+                    We know that your time is valuable and sometimes every minute in the day counts. That’s why we deliver! So you can spend more time doing the things you love. You can get anything from fruits to vegetables by placing a simple order online through our website. Then just sit back, relax, and wait for your order to arrive. Cheers!!!
+                    <br>
+                    - Green Veggies
                 </p>
             </div>
         </div>

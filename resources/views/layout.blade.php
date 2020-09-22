@@ -159,7 +159,6 @@
         $(".alert").slideUp(500);
     });
 </script>
-// Accordian
 <script type="text/javascript">
     $(document).ready(function(e){
         $('.item').click(function (e){

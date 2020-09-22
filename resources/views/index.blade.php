@@ -41,7 +41,7 @@
         <div class="section">
             <div class="container what-we-do text-center p-4">
                 <h3 class="text-center">About Us</h3>
-                <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima alias perferendis, aliquam ab maxime ipsa natus fuga exercitationem, dolorem nostrum assumenda enim soluta nesciunt reiciendis quis, dicta quod beatae quibusdam. Lorem ipsum dolor sit amet... </p>
+                <p class="p-3">Green Veggies is the local company in Lalitpur that delivers fresh fruits and vegetables from tens and hundreds of hard working farmer. As a pioneer groceries delivery service provider, we are making life easier through online ordering... </p>
                 <a class="custom-btn btn-primary" href="{{ url('/about') }}">Read More &raquo;</a>
             </div>
         </div>
