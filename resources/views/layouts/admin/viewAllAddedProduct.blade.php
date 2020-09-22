@@ -43,7 +43,8 @@
 
                                 <small class="form-text card-text productDesc">Original Price: <strong><strike>रू {{$product->orginalPrice}}</strike></strong> <span class="float-right"><strong>Dis. {{$product->discountRate}}%</strong></span></small>
 
-                                <small class="form-text card-text productDesc mb-4">Discounted Price: <strong>रू {{$product->discountedPrice}}</strong></small>
+                                {{--<small class="form-text card-text productDesc mb-4">Discounted Price: <strong>रू {{$product->discountedPrice}}</strong></small>--}}
+                                <small class="form-text card-text productDesc mb-4 mt-4 text-center">Discounted Price: <strong><small class="card-price">रू {{$product->discountedPrice}}</small></strong></small>
 
                                 <span class="clearfix">
                                     <a href="{{ url('/addedProducts',$product->id) }}/{{__('adminDelete')}}" class="btn btn-danger w-100" onclick="return confirm ('Are you sure you want to delete?');"><i class="fas fa-trash-alt"></i> Delete</a>

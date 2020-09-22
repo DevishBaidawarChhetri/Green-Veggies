@@ -42,11 +42,8 @@
 
                                 <small class="form-text card-text productDesc">Original Price: <strong><strike>रू {{$product->orginalPrice}}</strike></strong> <span class="float-right"><strong>Dis. {{$product->discountRate}}%</strong></span></small>
 
-                                <small class="form-text card-text productDesc mb-4">Discounted Price: <strong>रू {{$product->discountedPrice}}</strong></small>
+                                <small class="form-text card-text productDesc mb-4 mt-4 text-center">Discounted Price: <strong><small class="card-price">रू {{$product->discountedPrice}}</small></strong></small>
 
-                                <p class="text-center">
-                                    <strong>Seller: </strong>{{ \Illuminate\Support\Str::limit($product->productOwner->name, 10) }}
-                                </p>
                                 <div class="product-button-holders">
                                     <a href="{{ url('/productDetails')}}/{{$product->id}}/{{$product->id}}" class="btn btn-primary custom-btn" style="border: none;">See More &raquo;</a>
                                     <a href="{{ route('product.addToCart', $product->id) }}"><i class="fas fa-cart-plus add-to-cart"></i></a>

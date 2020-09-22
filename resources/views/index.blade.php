@@ -98,7 +98,7 @@
 
                                <small class="form-text card-text productDesc">Original Price: <strong><strike>रू {{$product->orginalPrice}}</strike></strong> <span class="float-right"><strong>Dis. {{$product->discountRate}}%</strong></span></small>
 
-                               <small class="form-text card-text productDesc mb-4">Discounted Price: <strong>रू {{$product->discountedPrice}}</strong></small>
+                               <small class="form-text card-text productDesc mb-4 mt-4 text-center">Discounted Price: <strong><small class="card-price">रू {{$product->discountedPrice}}</small></strong></small>
 
                                <div class="product-button-holders">
                                    <a href="{{ url('/productDetails')}}/{{$product->id}}/{{$product->id}}" class="btn btn-primary custom-btn" style="border: none;">See More &raquo;</a>

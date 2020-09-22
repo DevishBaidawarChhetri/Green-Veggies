@@ -44,7 +44,7 @@
 
                                 <small class="form-text card-text productDesc">Original Price: <strong><strike>रू {{$product->orginalPrice}}</strike></strong> <span class="float-right"><strong>Dis. {{$product->discountRate}}%</strong></span></small>
 
-                                <small class="form-text card-text productDesc mb-4">Discounted Price: <strong>रू {{$product->discountedPrice}}</strong></small>
+                                <small class="form-text card-text productDesc mb-4 mt-4 text-center">Discounted Price: <strong><small class="card-price">रू {{$product->discountedPrice}}</small></strong></small>
 
                                 <span class="clearfix">
                                     <a href="{{url('/addedProducts',$product->id)}}?product_id={{ $product->id }}" class="btn btn-primary float-left" style="border-radius: 0; border: none; width: 49%;"><i class="fas fa-edit"></i> Edit</a>
