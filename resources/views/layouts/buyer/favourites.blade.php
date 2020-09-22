@@ -42,7 +42,7 @@
 
                                         <small class="form-text card-text productDesc">Original Price: <strong><strike>रू {{$favourite->orginalPrice}}</strike></strong> <span class="float-right"><strong>Dis. {{$favourite->discountRate}}%</strong></span></small>
 
-                                        <small class="form-text card-text productDesc mb-4">Discounted Price: <strong>रू {{$favourite->discountedPrice}}</strong></small>
+                                        <small class="form-text card-text productDesc mb-4 mt-4 text-center">Discounted Price: <strong><small class="card-price">रू {{$favourite->discountedPrice}}</small></strong></small>
 
                                         <span class="clearfix">
                                             <a href="{{ url('/productDetails')}}/{{$favourite->id}}/{{$favourite->id}}" style=" border-radius: 0;" class="btn btn-primary float-left"><i class="fas fa-angle-double-right"></i> See More</a>
